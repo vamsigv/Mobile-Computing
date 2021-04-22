@@ -35,3 +35,5 @@ Gesture list: {Turn on lights, Turn off lights, Turn on fan, Turn off fan, Incre
 2.Screen 2:​ The video of an expert performing the gesture will be shown on this screen.Screen 2 will have another button that says “PRACTICE”. Once this button is pressed,the user will be taken to Screen 3.
 
 3.Screen 3:​ In this screen, the camera interface will be opened for the user to record thepractice gesture. The video will be captured for ​5 seconds​, and the video will be savedwith the following filename format: [GESTURE NAME]PRACTICE[practice number].mp4
+
+### Project demo : https://youtu.be/48YS9C10vRM
