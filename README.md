@@ -38,6 +38,10 @@ Gesture list: {Turn on lights, Turn off lights, Turn on fan, Turn off fan, Incre
 
 ### Project demo : https://youtu.be/48YS9C10vRM
 
+
+## SmartHome Gesture ControlApplication Phase 2
+A python application classifying Smart Home gestures using CNN model.
+
 ## Biometric Liveness Detector
 A mobile application that acts as a verification server for liveness detectionfor brain signals. Data will be sent to app on the phone through some communication channel (Internet or Bluetooth), the app will analyze it (machine learning techniques)and announce the result (live or not live). 
 
