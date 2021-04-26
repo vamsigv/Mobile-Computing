@@ -42,6 +42,39 @@ Gesture list: {Turn on lights, Turn off lights, Turn on fan, Turn off fan, Incre
 ## SmartHome Gesture ControlApplication Phase 2
 A python application classifying Smart Home gestures using CNN model.
 
+The practice gesture videos generated in project Part 1, test gesture videos provided in the test.zip in the instructions and the source code provided will be used to complete the project. 
+
+### Functionality of the application
+##### Task 1:  Generate the penultimate layer for the training videos.
+Steps to generate the penultimate layer for the training set:
+1.Extract the middle frames of all the training gesture videos.
+2.For each gesture video, you will have one frame extract the hand shape feature by calling theget_Intsance() method of the HandShapeFeatureExtractor class. (HandShapeFeatureExtractor classuses CNN model that is trained for alphabet gestures)3.For each gesture, extract the feature vector.4.Feature vectors of all the gestures is the penultimate layer of the training set.
+##### Task 2:  Generate the penultimate layer for the test videosFollow the steps for Task 1 to get the penultimate layer of the test dataset.
+##### Task 3: Gesture recognition of the test dataset.
+Steps:
+1.Apply cosine similarity between the vector of the gesture video and the penultimate layer of thetraining set. Corresponding gesture of the training set vector with minimum cosine difference is therecognition of the gesture.
+2.Save the gesture number to the Results.csv3.Recognize the gestures for all the test dataset videos and save the results to the results.csv file.
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| 0  | 0  |
+| 1  | 1  |
+| 2  | 2  |
+| 3  | 3  |
+| 4  | 4  |
+| 5  | 5  |
+| 6  | 6  |
+| 7  | 7  |
+| 8  | 8  |
+| 9  | 9  |
+| Decrease Fan Speed  | 10  |
+| FanOn  | 11  |
+| FanOff  | 12  |
+| Increase Fan Speed  | 13  |
+| LightOff  | 14  |
+| LightOn  | 15  |
+| SetThermo  | 16  |
+
 ## Biometric Liveness Detector
 A mobile application that acts as a verification server for liveness detectionfor brain signals. Data will be sent to app on the phone through some communication channel (Internet or Bluetooth), the app will analyze it (machine learning techniques)and announce the result (live or not live). 
 
