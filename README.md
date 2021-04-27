@@ -19,7 +19,8 @@ Once the user is done collecting signs data, the user will be taken to the secon
 
 ### Project demo : https://youtu.be/pFntRaXVtU8
 
-## SmartHome Gesture ControlApplication Phase 1
+## SmartHome
+### SmartHome Gesture ControlApplication Phase 1
 Develop a mobile application with the listed functionalities: 
 A.The user is shown a video of a gesture. 
 B.The user can replay the video at least 3 times. 
@@ -36,15 +37,15 @@ Gesture list: {Turn on lights, Turn off lights, Turn on fan, Turn off fan, Incre
 
 3.Screen 3:​ In this screen, the camera interface will be opened for the user to record thepractice gesture. The video will be captured for ​5 seconds​, and the video will be savedwith the following filename format: [GESTURE NAME]PRACTICE[practice number].mp4
 
-### Project demo : https://youtu.be/48YS9C10vRM
+#### Project demo : https://youtu.be/48YS9C10vRM
 
 
-## SmartHome Gesture ControlApplication Phase 2
+### SmartHome Gesture ControlApplication Phase 2
 A python application classifying Smart Home gestures using CNN model.
 
 The practice gesture videos generated in project Part 1, test gesture videos provided in the test.zip in the instructions and the source code provided will be used to complete the project. 
 
-### Functionality of the application
+#### Functionality of the application
 ##### Task 1:  Generate the penultimate layer for the training videos.
 Steps to generate the penultimate layer for the training set:
 1.Extract the middle frames of all the training gesture videos.
